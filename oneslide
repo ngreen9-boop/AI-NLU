@@ -1,0 +1,95 @@
+<div id="app" class="h-screen w-screen bg-[#172554] flex items-center justify-center p-4">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .slide-container {
+            width: 100%;
+            max-width: 1000px;
+            height: 600px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+            border-radius: 16px;
+            overflow: hidden;
+            background-color: #ffffff; 
+        }
+        .header-section {
+            background-color: #1e3a8a; /* Deep Navy Header */
+            color: white;
+        }
+        .content-card {
+            background-color: white;
+            padding: 2rem;
+            height: calc(100% - 100px); /* Adjust height based on header */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .data-box {
+            background-color: #f0f4ff; /* Very light blue/gray */
+            border-left: 5px solid #facc15; /* Gold accent line */
+        }
+    </style>
+
+    <div class="slide-container flex flex-col">
+        <!-- HEADER (100px tall) -->
+        <div class="header-section p-4 h-24 flex flex-col justify-center">
+            <h1 class="text-3xl sm:text-4xl font-extrabold leading-tight">AI Badge Program: Launch Success & Strategic Vision</h1>
+            <h2 class="text-lg font-medium opacity-80 mt-1">*Establishing NLU as an AI Thought Leader for Educators*</h2>
+        </div>
+
+        <!-- CONTENT AREA -->
+        <div class="content-card">
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 flex-grow">
+                
+                <!-- Left Column: Data Focus -->
+                <div>
+                    <h3 class="text-2xl font-bold text-[#facc15] mb-4 border-b pb-1 border-gray-200">Phase 1: Origins (Summer 2025)</h3>
+                    <div class="space-y-4">
+                        <div class="data-box p-4 rounded-lg flex items-center shadow-sm">
+                            <span class="text-5xl font-extrabold text-[#1e3a8a] mr-4 w-1/4 min-w-[60px]">76</span>
+                            <p class="text-xl font-semibold text-gray-800">Students **ENROLLED**</p>
+                        </div>
+                        <div class="data-box p-4 rounded-lg flex items-center shadow-sm">
+                            <span class="text-5xl font-extrabold text-[#1e3a8a] mr-4 w-1/4 min-w-[60px]">36</span>
+                            <p class="text-xl font-semibold text-gray-800">**BADGES** Awarded</p>
+                        </div>
+                        <p class="text-sm text-gray-500 mt-2 ml-2">Initial Badge: AI Innovations in Teaching & Learning</p>
+                    </div>
+                </div>
+
+                <!-- Right Column: Strategic Focus -->
+                <div>
+                    <h3 class="text-2xl font-bold text-[#facc15] mb-4 border-b pb-1 border-gray-200">Program Value & Future Vision</h3>
+                    
+                    <div class="mb-5">
+                        <p class="text-xl font-semibold text-[#1e3a8a] flex items-center mb-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 text-[#facc15]" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                            Immediate Educator Value
+                        </p>
+                        <ul class="list-disc list-inside space-y-1 text-lg pl-6 text-gray-700">
+                            <li>Digital AI Badge (Proof of Competency)</li>
+                            <li class="font-bold">8 ISBE PD Credits</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p class="text-xl font-semibold text-[#1e3a8a] flex items-center mb-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 text-[#facc15]" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+                            Strategic Expansion
+                        </p>
+                        <ul class="list-disc list-inside space-y-1 text-lg pl-6 text-gray-700">
+                            <li>Expanding to a **3-Badge Series**</li>
+                            <li>Position NLU for **Strategic K-12 Partnerships**</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer for Branding -->
+            <div class="text-center text-sm text-gray-400 mt-4 pt-4 border-t border-gray-100">
+                National College of Education | National Louis University
+            </div>
+        </div>
+    </div>
+</div>
